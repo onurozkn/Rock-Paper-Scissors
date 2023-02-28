@@ -57,8 +57,8 @@ const gameReady = () => {
         bt.addEventListener('click', function () {
   
           // set the img back to rock image
-          player.src = `./img/rock.png`
-          computer.src = `./img/rock.png`
+          player.src = `./libs/img/rock.png`
+          computer.src = `./libs/img/rock.png`
   
           // play audio effect
           shake.play()
@@ -82,8 +82,8 @@ const gameReady = () => {
           // timer after runntion
           setTimeout(() => {
   
-            computer.src = `./img/${compSel}.png`
-            player.src = `./img/${playerSel}.png`
+            computer.src = `./libs/img/${compSel}.png`
+            player.src = `./libs/img/${playerSel}.png`
   
             // put back the pointer events after running
             btn.forEach(b => {
